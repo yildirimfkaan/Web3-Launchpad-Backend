@@ -1,0 +1,11 @@
+{
+    "contract_address": "0xstaking123",
+    "contract_owner_address": "0xstaking123",
+    "reward_token_address": "0xstaking123",
+    "reward_token_owner_address": "0xstaking123",
+    "start_date": "2022-09-08T14:14:35.893Z",
+    "end_date": "2022-09-08T14:14:35.893Z",
+    "finish_date": "2022-09-08T14:14:35.893Z",
+    "total_rounds": 0,
+    "current_round": 0
+  }

@@ -1,0 +1,52 @@
+# docker-compose.yml
+
+version: '3.8'
+
+services:
+  test_db:
+    image: postgres:14-alpine
+    volumes:
+      - postgres_data_test:/var/lib/postgresql/data/
+    expose:
+      - 5432
+    ports:
+      - 5433:5432
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=unotest
+      - POSTGRES_DB=unoTestAPI
+    healthcheck:
+        test: ["CMD-SHELL", "pg_isready -U postgres"]
+        interval: 5s
+        timeout: 10s
+        retries: 120
+  test_api:
+    env_file:
+      - ./API/.testenv
+    build: .
+    volumes:
+      - .:/unopad
+    expose:
+      - 4000
+    ports:
+      - 4000:4000
+    depends_on:
+      test_db:
+        condition: service_healthy
+
+  test:
+    env_file:
+      - ./API/.testenv
+    build: 
+      dockerfile: test.Dockerfile
+    volumes:
+      - type: bind
+        source: ./tests/logs
+        target: /unopad/tests/logs
+    depends_on:
+      - test_api
+    environment:
+      WAIT_HOSTS: test_api:4000
+
+volumes:
+  postgres_data_test:

@@ -1,0 +1,1388 @@
+DEBUG:passlib.registry:registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+INFO:uvicorn.error:Started server process [1]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+INFO:uvicorn.error:Uvicorn running on http://0.0.0.0:4000 (Press CTRL+C to quit)
+INFO:Logger:Request : GET http://localhost:4000/docs - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/openapi.json - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/user/check_token - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/user/check_token - Response: 403 {"detail":"Could not validate credentials"}
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[0:8]
+DEBUG:multipart.multipart:Calling on_field_data with data[9:36]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[37:45]
+DEBUG:multipart.multipart:Calling on_field_data with data[46:52]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[53:58]
+DEBUG:multipart.multipart:Calling on_field_data with data[59:86]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_end with no data
+DEBUG:passlib.handlers.bcrypt:detected 'bcrypt' backend, version '3.2.2'
+DEBUG:passlib.handlers.bcrypt:'bcrypt' backend lacks $2$ support, enabling workaround
+INFO:root:send email result: <emails.backend.SMTPResponse status_code=250 status_text=b'2.0.0 OK <DBBPR05MB644303A3F97FA9F33670F374EA049@DBBPR05MB6443.eurprd05.prod.outlook.com> [Hostname=DBBPR05MB6443.eurprd05.prod.outlook.com]'>
+INFO:Logger:Request : POST http://localhost:4000/signup - Response Status: 200
+INFO:Logger:Request : POST http://localhost:4000/activate - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/login - Response Status: 200
+DEBUG:multipart.multipart:Calling on_part_begin with no data
+DEBUG:multipart.multipart:Calling on_header_field with data[42:61]
+DEBUG:multipart.multipart:Calling on_header_value with data[63:89]
+DEBUG:multipart.multipart:Calling on_header_end with no data
+DEBUG:multipart.multipart:Calling on_headers_finished with no data
+DEBUG:multipart.multipart:Calling on_part_data with data[93:118]
+DEBUG:multipart.multipart:Calling on_part_end with no data
+DEBUG:multipart.multipart:Calling on_part_begin with no data
+DEBUG:multipart.multipart:Calling on_header_field with data[162:181]
+DEBUG:multipart.multipart:Calling on_header_value with data[183:209]
+DEBUG:multipart.multipart:Calling on_header_end with no data
+DEBUG:multipart.multipart:Calling on_headers_finished with no data
+DEBUG:multipart.multipart:Calling on_part_data with data[213:219]
+DEBUG:multipart.multipart:Calling on_part_end with no data
+DEBUG:multipart.multipart:Calling on_end with no data
+INFO:Logger:Request : POST http://localhost:4000/login - Response Status: 200
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[0:10]
+DEBUG:multipart.multipart:Calling on_field_data with data[11:19]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[20:28]
+DEBUG:multipart.multipart:Calling on_field_data with data[29:56]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[57:65]
+DEBUG:multipart.multipart:Calling on_field_data with data[66:72]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_end with no data
+INFO:Logger:Request : POST http://localhost:4000/login - Response Status: 200
+INFO:Logger:Request : POST http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : POST http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : POST http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : POST http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : POST http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : POST http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : POST http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : POST http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects - Response Status: 200
+DEBUG:multipart.multipart:Calling on_part_begin with no data
+DEBUG:multipart.multipart:Calling on_header_field with data[42:61]
+DEBUG:multipart.multipart:Calling on_header_value with data[63:110]
+DEBUG:multipart.multipart:Calling on_header_end with no data
+DEBUG:multipart.multipart:Calling on_header_field with data[112:124]
+DEBUG:multipart.multipart:Calling on_header_value with data[126:135]
+DEBUG:multipart.multipart:Calling on_header_end with no data
+DEBUG:multipart.multipart:Calling on_headers_finished with no data
+DEBUG:multipart.multipart:Calling on_part_data with data[139:5810]
+DEBUG:multipart.multipart:Calling on_part_end with no data
+DEBUG:multipart.multipart:Calling on_part_begin with no data
+DEBUG:multipart.multipart:Calling on_header_field with data[5854:5873]
+DEBUG:multipart.multipart:Calling on_header_value with data[5875:5922]
+DEBUG:multipart.multipart:Calling on_header_end with no data
+DEBUG:multipart.multipart:Calling on_header_field with data[5924:5936]
+DEBUG:multipart.multipart:Calling on_header_value with data[5938:5947]
+DEBUG:multipart.multipart:Calling on_header_end with no data
+DEBUG:multipart.multipart:Calling on_headers_finished with no data
+DEBUG:multipart.multipart:Calling on_part_data with data[5951:13417]
+DEBUG:multipart.multipart:Calling on_part_data with data[0:1]
+DEBUG:multipart.multipart:Calling on_part_data with data[13418:14410]
+DEBUG:multipart.multipart:Calling on_part_end with no data
+DEBUG:multipart.multipart:Calling on_end with no data
+INFO:Logger:Request : PUT http://localhost:4000/projects/1/image - Response Status: 200
+DEBUG:multipart.multipart:Calling on_part_begin with no data
+DEBUG:multipart.multipart:Calling on_header_field with data[42:61]
+DEBUG:multipart.multipart:Calling on_header_value with data[63:110]
+DEBUG:multipart.multipart:Calling on_header_end with no data
+DEBUG:multipart.multipart:Calling on_header_field with data[112:124]
+DEBUG:multipart.multipart:Calling on_header_value with data[126:135]
+DEBUG:multipart.multipart:Calling on_header_end with no data
+DEBUG:multipart.multipart:Calling on_headers_finished with no data
+DEBUG:multipart.multipart:Calling on_part_data with data[139:5810]
+DEBUG:multipart.multipart:Calling on_part_end with no data
+DEBUG:multipart.multipart:Calling on_part_begin with no data
+DEBUG:multipart.multipart:Calling on_header_field with data[5854:5873]
+DEBUG:multipart.multipart:Calling on_header_value with data[5875:5922]
+DEBUG:multipart.multipart:Calling on_header_end with no data
+DEBUG:multipart.multipart:Calling on_header_field with data[5924:5936]
+DEBUG:multipart.multipart:Calling on_header_value with data[5938:5947]
+DEBUG:multipart.multipart:Calling on_header_end with no data
+DEBUG:multipart.multipart:Calling on_headers_finished with no data
+DEBUG:multipart.multipart:Calling on_part_data with data[5951:14384]
+DEBUG:multipart.multipart:Calling on_part_data with data[0:1]
+DEBUG:multipart.multipart:Calling on_part_data with data[14385:14410]
+DEBUG:multipart.multipart:Calling on_part_end with no data
+DEBUG:multipart.multipart:Calling on_end with no data
+INFO:Logger:Request : PUT http://localhost:4000/projects/1/image - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/user/profile - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/profile - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects/3 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/3 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/3/image - Response: 400 {"error":"project 3 does not have an image."}
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects/3 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/3 - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/3 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/3/image - Response: 400 {"error":"project 3 does not have an image."}
+INFO:Logger:Request : GET http://localhost:4000/projects/3 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/3 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/3 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/3 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/3 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/3 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/3/image - Response: 400 {"error":"project 3 does not have an image."}
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/3 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/3/image - Response: 400 {"error":"project 3 does not have an image."}
+INFO:Logger:Request : GET http://localhost:4000/projects/3 - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects/3 - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/3 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/3/image - Response: 400 {"error":"project 3 does not have an image."}
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/3 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/3/image - Response: 400 {"error":"project 3 does not have an image."}
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/3 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/3/image - Response: 400 {"error":"project 3 does not have an image."}
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/3 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/3/image - Response: 400 {"error":"project 3 does not have an image."}
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects/3 - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/3 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/3 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/3/image - Response: 400 {"error":"project 3 does not have an image."}
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects/3 - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/3 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/3/image - Response: 400 {"error":"project 3 does not have an image."}
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects/3 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/3 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/3/image - Response: 400 {"error":"project 3 does not have an image."}
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/3 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/3/image - Response: 400 {"error":"project 3 does not have an image."}
+ERROR:Logger:Request : GET http://localhost:4000/projects/3/image - Response: 400 {"error":"project 3 does not have an image."}
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/3 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/3 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/3/image - Response: 400 {"error":"project 3 does not have an image."}
+ERROR:Logger:Request : GET http://localhost:4000/projects/3/image - Response: 400 {"error":"project 3 does not have an image."}
+INFO:Logger:Request : GET http://localhost:4000/projects/3 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/3 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/3/image - Response: 400 {"error":"project 3 does not have an image."}
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/3 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/3/image - Response: 400 {"error":"project 3 does not have an image."}
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/3 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/3/image - Response: 400 {"error":"project 3 does not have an image."}
+ERROR:Logger:Request : GET http://localhost:4000/projects/3/image - Response: 400 {"error":"project 3 does not have an image."}
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects/3 - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/3 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/3/image - Response: 400 {"error":"project 3 does not have an image."}
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects/3 - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/3 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/3/image - Response: 400 {"error":"project 3 does not have an image."}
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/3 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/3/image - Response: 400 {"error":"project 3 does not have an image."}
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/3 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/3/image - Response: 400 {"error":"project 3 does not have an image."}
+ERROR:Logger:Request : GET http://localhost:4000/projects/3/image - Response: 400 {"error":"project 3 does not have an image."}
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/3 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/3/image - Response: 400 {"error":"project 3 does not have an image."}
+INFO:uvicorn.error:Shutting down
+INFO:uvicorn.error:Waiting for application shutdown.
+INFO:uvicorn.error:Application shutdown complete.
+INFO:uvicorn.error:Finished server process [1]
+DEBUG:passlib.registry:registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+INFO:uvicorn.error:Started server process [1]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+INFO:uvicorn.error:Uvicorn running on http://0.0.0.0:4000 (Press CTRL+C to quit)
+INFO:Logger:Request : OPTIONS http://localhost:4000/user/check_token - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/user/check_token - Response: 403 {"detail":"Could not validate credentials"}
+INFO:Logger:Request : OPTIONS http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects/1 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/1 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/1/image - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects/3 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/3 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/3/image - Response: 400 {"error":"project 3 does not have an image."}
+INFO:Logger:Request : GET http://localhost:4000/projects/3 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/3/image - Response: 400 {"error":"project 3 does not have an image."}
+ERROR:Logger:Request : GET http://localhost:4000/projects/3/logo - Response: 400 {"error":"project 3 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/projects/3 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/3 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/3/logo - Response: 400 {"error":"project 3 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/projects/3 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/3 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/3 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/3/logo - Response: 400 {"error":"project 3 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/projects/3 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/3/logo - Response: 400 {"error":"project 3 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/projects/3 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/3/logo - Response: 400 {"error":"project 3 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects/3 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/3 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/3/logo - Response: 400 {"error":"project 3 does not have a logo."}
+ERROR:Logger:Request : GET http://localhost:4000/projects/3/image - Response: 400 {"error":"project 3 does not have an image."}
+ERROR:Logger:Request : GET http://localhost:4000/projects/3/image - Response: 400 {"error":"project 3 does not have an image."}
+INFO:Logger:Request : OPTIONS http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects/3 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/3 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/3/logo - Response: 400 {"error":"project 3 does not have a logo."}
+INFO:Logger:Request : OPTIONS http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects/3 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/3 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/3/logo - Response: 400 {"error":"project 3 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/3 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/3/logo - Response: 400 {"error":"project 3 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects/3 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/3 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/3/logo - Response: 400 {"error":"project 3 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/projects/3 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/3 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/3/logo - Response: 400 {"error":"project 3 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/projects/3 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/3 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/3/logo - Response: 400 {"error":"project 3 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects/8 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/8 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/8/logo - Response: 400 {"error":"project 8 does not have a logo."}
+INFO:Logger:Request : OPTIONS http://localhost:4000/login - Response Status: 200
+DEBUG:multipart.multipart:Calling on_part_begin with no data
+DEBUG:multipart.multipart:Calling on_header_field with data[42:61]
+DEBUG:multipart.multipart:Calling on_header_value with data[63:89]
+DEBUG:multipart.multipart:Calling on_header_end with no data
+DEBUG:multipart.multipart:Calling on_headers_finished with no data
+DEBUG:multipart.multipart:Calling on_part_data with data[93:118]
+DEBUG:multipart.multipart:Calling on_part_end with no data
+DEBUG:multipart.multipart:Calling on_part_begin with no data
+DEBUG:multipart.multipart:Calling on_header_field with data[162:181]
+DEBUG:multipart.multipart:Calling on_header_value with data[183:209]
+DEBUG:multipart.multipart:Calling on_header_end with no data
+DEBUG:multipart.multipart:Calling on_headers_finished with no data
+DEBUG:multipart.multipart:Calling on_part_data with data[213:219]
+DEBUG:multipart.multipart:Calling on_part_end with no data
+DEBUG:multipart.multipart:Calling on_end with no data
+DEBUG:passlib.handlers.bcrypt:detected 'bcrypt' backend, version '3.2.2'
+DEBUG:passlib.handlers.bcrypt:'bcrypt' backend lacks $2$ support, enabling workaround
+INFO:Logger:Request : POST http://localhost:4000/login - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects/6 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/8/logo - Response: 400 {"error":"project 8 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/projects/6 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/6/logo - Response: 400 {"error":"project 6 does not have a logo."}
+INFO:Logger:Request : OPTIONS http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/6 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/6/logo - Response: 400 {"error":"project 6 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/6 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/6/logo - Response: 400 {"error":"project 6 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/6 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/6/logo - Response: 400 {"error":"project 6 does not have a logo."}
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects/6 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/6 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/6/logo - Response: 400 {"error":"project 6 does not have a logo."}
+INFO:Logger:Request : OPTIONS http://localhost:4000/user/profile - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/profile - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/6 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/6/logo - Response: 400 {"error":"project 6 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/6 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/6/logo - Response: 400 {"error":"project 6 does not have a logo."}
+INFO:Logger:Request : OPTIONS http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/6 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/6/logo - Response: 400 {"error":"project 6 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/6 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/6/logo - Response: 400 {"error":"project 6 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/6 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/6/logo - Response: 400 {"error":"project 6 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/6 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/6/logo - Response: 400 {"error":"project 6 does not have a logo."}
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects/6 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/6 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/6/logo - Response: 400 {"error":"project 6 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/6 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/6/logo - Response: 400 {"error":"project 6 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/6 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/6/logo - Response: 400 {"error":"project 6 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/6 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/6/logo - Response: 400 {"error":"project 6 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/6 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/6/logo - Response: 400 {"error":"project 6 does not have a logo."}
+INFO:Logger:Request : OPTIONS http://localhost:4000/user/profile - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/profile - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/6 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/6/logo - Response: 400 {"error":"project 6 does not have a logo."}
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects/6 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/6 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/6/logo - Response: 400 {"error":"project 6 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/6 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/6/logo - Response: 400 {"error":"project 6 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/6 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/6/logo - Response: 400 {"error":"project 6 does not have a logo."}
+INFO:Logger:Request : OPTIONS http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/6 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/6/logo - Response: 400 {"error":"project 6 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/6 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/6/logo - Response: 400 {"error":"project 6 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/6 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/6/logo - Response: 400 {"error":"project 6 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/6 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/6/logo - Response: 400 {"error":"project 6 does not have a logo."}
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects/6 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/6 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/6/logo - Response: 400 {"error":"project 6 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/6 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/6/logo - Response: 400 {"error":"project 6 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/6 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/6/logo - Response: 400 {"error":"project 6 does not have a logo."}
+INFO:Logger:Request : OPTIONS http://localhost:4000/user/profile - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/profile - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/user/profile - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/profile - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects/3 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/3 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/3/logo - Response: 400 {"error":"project 3 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/user/profile - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects/2 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/3/logo - Response: 400 {"error":"project 3 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/projects/2 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/2/logo - Response: 400 {"error":"project 2 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/2 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/2/logo - Response: 400 {"error":"project 2 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/2 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/2/logo - Response: 400 {"error":"project 2 does not have a logo."}
+ERROR:Logger:Request : GET http://localhost:4000/projects/2/image - Response: 400 {"error":"project 2 does not have an image."}
+INFO:Logger:Request : GET http://localhost:4000/projects - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/2/logo - Response: 400 {"error":"project 2 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/projects/3 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/3/logo - Response: 400 {"error":"project 3 does not have a logo."}
+INFO:Logger:Request : OPTIONS http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/3/logo - Response: 400 {"error":"project 3 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/projects/3 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+DEBUG:passlib.registry:registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+INFO:uvicorn.error:Started server process [1]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+INFO:uvicorn.error:Uvicorn running on http://0.0.0.0:4000 (Press CTRL+C to quit)
+INFO:Logger:Request : OPTIONS http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects/8 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/8 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/8/logo - Response: 400 {"error":"project 8 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects/1 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/1 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/1/logo - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/docs - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/openapi.json - Response Status: 200
+ERROR:Logger:Request : PUT http://localhost:4000/tokens/5 - Response: 401 {"detail":"Not authenticated"}
+ERROR:Logger:Request : PUT http://localhost:4000/tokens/5 - Response: 401 {"detail":"Not authenticated"}
+ERROR:Logger:Request : PUT http://localhost:4000/tokens/5 - Response: 401 {"detail":"Not authenticated"}
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects/6 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/6 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/6/logo - Response: 400 {"error":"project 6 does not have a logo."}
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects/5 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/5 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/5/logo - Response: 400 {"error":"project 5 does not have a logo."}
+ERROR:Logger:Request : GET http://localhost:4000/projects/6/logo - Response: 400 {"error":"project 6 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/tokens/5 - Response Status: 200
+ERROR:Logger:Request : PUT http://localhost:4000/tokens/5 - Response: 401 {"detail":"Not authenticated"}
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+ERROR:Logger:Request : PUT http://localhost:4000/projects/5 - Response: 401 {"detail":"Not authenticated"}
+ERROR:Logger:Request : PUT http://localhost:4000/projects/5 - Response: 401 {"detail":"Not authenticated"}
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects/4 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/4 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/4/logo - Response: 400 {"error":"project 4 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/projects/5 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/5/logo - Response: 400 {"error":"project 5 does not have a logo."}
+ERROR:Logger:Request : GET http://localhost:4000/project/5 - Response: 404 {"detail":"Not Found"}
+ERROR:Logger:Request : GET http://localhost:4000/favicon.ico - Response: 404 {"detail":"Not Found"}
+ERROR:Logger:Request : GET http://localhost:4000/projects/5/logo - Response: 400 {"error":"project 5 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/projects - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/5/logo - Response: 400 {"error":"project 5 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/projects/6 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/6/logo - Response: 400 {"error":"project 6 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/projects - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/6/logo - Response: 400 {"error":"project 6 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/projects/5 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/5/logo - Response: 400 {"error":"project 5 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/tokens/5 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[0:10]
+DEBUG:multipart.multipart:Calling on_field_data with data[11:19]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[20:28]
+DEBUG:multipart.multipart:Calling on_field_data with data[29:56]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[57:65]
+DEBUG:multipart.multipart:Calling on_field_data with data[66:72]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_end with no data
+DEBUG:passlib.handlers.bcrypt:detected 'bcrypt' backend, version '3.2.2'
+DEBUG:passlib.handlers.bcrypt:'bcrypt' backend lacks $2$ support, enabling workaround
+INFO:Logger:Request : POST http://localhost:4000/login - Response Status: 200
+ERROR:uvicorn.error:Exception in ASGI application
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1819, in _execute_context
+    self.dialect.do_execute(
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.ForeignKeyViolation: insert or update on table "token" violates foreign key constraint "token_presale_contract_id_fkey"
+DETAIL:  Key (presale_contract_id)=(0) is not present in table "presale".
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 366, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/usr/local/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/fastapi/applications.py", line 269, in __call__
+    await super().__call__(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/base.py", line 68, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "/unopad/API/./logger.py", line 33, in log_middle
+    response = await call_next(request)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/base.py", line 46, in call_next
+    raise app_exc
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/base.py", line 36, in coro
+    await self.app(scope, request.receive, send_stream.send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/cors.py", line 92, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/cors.py", line 147, in simple_response
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/exceptions.py", line 93, in __call__
+    raise exc
+  File "/usr/local/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    await self.app(scope, receive, sender)
+  File "/usr/local/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 21, in __call__
+    raise e
+  File "/usr/local/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 670, in __call__
+    await route.handle(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 266, in handle
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 65, in app
+    response = await func(request)
+  File "/usr/local/lib/python3.8/site-packages/fastapi/routing.py", line 227, in app
+    raw_response = await run_endpoint_function(
+  File "/usr/local/lib/python3.8/site-packages/fastapi/routing.py", line 162, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/usr/local/lib/python3.8/site-packages/starlette/concurrency.py", line 41, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "/usr/local/lib/python3.8/site-packages/anyio/to_thread.py", line 31, in run_sync
+    return await get_asynclib().run_sync_in_worker_thread(
+  File "/usr/local/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 937, in run_sync_in_worker_thread
+    return await future
+  File "/usr/local/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 867, in run
+    result = context.run(func, *args)
+  File "/unopad/API/./project.py", line 345, in update_token
+    db.commit()
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 1435, in commit
+    self._transaction.commit(_to_root=self.future)
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 829, in commit
+    self._prepare_impl()
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 808, in _prepare_impl
+    self.session.flush()
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 3367, in flush
+    self._flush(objects)
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 3507, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 3467, in _flush
+    flush_context.execute()
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/orm/unitofwork.py", line 456, in execute
+    rec.execute(self)
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/orm/unitofwork.py", line 630, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/orm/persistence.py", line 237, in save_obj
+    _emit_update_statements(
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/orm/persistence.py", line 1001, in _emit_update_statements
+    c = connection._execute_20(
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1631, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/sql/elements.py", line 325, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1498, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1862, in _execute_context
+    self._handle_dbapi_exception(
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 2043, in _handle_dbapi_exception
+    util.raise_(
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1819, in _execute_context
+    self.dialect.do_execute(
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.IntegrityError: (psycopg2.errors.ForeignKeyViolation) insert or update on table "token" violates foreign key constraint "token_presale_contract_id_fkey"
+DETAIL:  Key (presale_contract_id)=(0) is not present in table "presale".
+
+[SQL: UPDATE token SET name=%(name)s, symbol=%(symbol)s, decimals=%(decimals)s, address=%(address)s, owner_address=%(owner_address)s, total_supply=%(total_supply)s, price_in_usd=%(price_in_usd)s, price_in_uno=%(price_in_uno)s, distribution=%(distribution)s, current_price=%(current_price)s, all_time_high=%(all_time_high)s, presale_contract_id=%(presale_contract_id)s, staking_contract_id=%(staking_contract_id)s, udate=now() WHERE token.id = %(token_id)s]
+[parameters: {'name': 'kaan', 'symbol': 'knn', 'decimals': 0, 'address': 'string', 'owner_address': 'string', 'total_supply': 0, 'price_in_usd': 0.0, 'price_in_uno': 0.0, 'distribution': 0, 'current_price': 0.0, 'all_time_high': 0.0, 'presale_contract_id': 0, 'staking_contract_id': 0, 'token_id': 2}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+ERROR:uvicorn.error:Exception in ASGI application
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1819, in _execute_context
+    self.dialect.do_execute(
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.ForeignKeyViolation: insert or update on table "token" violates foreign key constraint "token_presale_contract_id_fkey"
+DETAIL:  Key (presale_contract_id)=(0) is not present in table "presale".
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 366, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/usr/local/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/fastapi/applications.py", line 269, in __call__
+    await super().__call__(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/base.py", line 68, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "/unopad/API/./logger.py", line 33, in log_middle
+    response = await call_next(request)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/base.py", line 46, in call_next
+    raise app_exc
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/base.py", line 36, in coro
+    await self.app(scope, request.receive, send_stream.send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/cors.py", line 92, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/cors.py", line 147, in simple_response
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/exceptions.py", line 93, in __call__
+    raise exc
+  File "/usr/local/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    await self.app(scope, receive, sender)
+  File "/usr/local/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 21, in __call__
+    raise e
+  File "/usr/local/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 670, in __call__
+    await route.handle(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 266, in handle
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 65, in app
+    response = await func(request)
+  File "/usr/local/lib/python3.8/site-packages/fastapi/routing.py", line 227, in app
+    raw_response = await run_endpoint_function(
+  File "/usr/local/lib/python3.8/site-packages/fastapi/routing.py", line 162, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/usr/local/lib/python3.8/site-packages/starlette/concurrency.py", line 41, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "/usr/local/lib/python3.8/site-packages/anyio/to_thread.py", line 31, in run_sync
+    return await get_asynclib().run_sync_in_worker_thread(
+  File "/usr/local/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 937, in run_sync_in_worker_thread
+    return await future
+  File "/usr/local/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 867, in run
+    result = context.run(func, *args)
+  File "/unopad/API/./project.py", line 345, in update_token
+    db.commit()
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 1435, in commit
+    self._transaction.commit(_to_root=self.future)
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 829, in commit
+    self._prepare_impl()
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 808, in _prepare_impl
+    self.session.flush()
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 3367, in flush
+    self._flush(objects)
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 3507, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 3467, in _flush
+    flush_context.execute()
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/orm/unitofwork.py", line 456, in execute
+    rec.execute(self)
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/orm/unitofwork.py", line 630, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/orm/persistence.py", line 237, in save_obj
+    _emit_update_statements(
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/orm/persistence.py", line 1001, in _emit_update_statements
+    c = connection._execute_20(
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1631, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/sql/elements.py", line 325, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1498, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1862, in _execute_context
+    self._handle_dbapi_exception(
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 2043, in _handle_dbapi_exception
+    util.raise_(
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1819, in _execute_context
+    self.dialect.do_execute(
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.IntegrityError: (psycopg2.errors.ForeignKeyViolation) insert or update on table "token" violates foreign key constraint "token_presale_contract_id_fkey"
+DETAIL:  Key (presale_contract_id)=(0) is not present in table "presale".
+
+[SQL: UPDATE token SET name=%(name)s, symbol=%(symbol)s, decimals=%(decimals)s, address=%(address)s, owner_address=%(owner_address)s, total_supply=%(total_supply)s, price_in_usd=%(price_in_usd)s, price_in_uno=%(price_in_uno)s, distribution=%(distribution)s, current_price=%(current_price)s, all_time_high=%(all_time_high)s, presale_contract_id=%(presale_contract_id)s, staking_contract_id=%(staking_contract_id)s, udate=now() WHERE token.id = %(token_id)s]
+[parameters: {'name': 'kaan', 'symbol': 'knn', 'decimals': 0, 'address': 'string', 'owner_address': 'string', 'total_supply': 0, 'price_in_usd': 0.0, 'price_in_uno': 0.0, 'distribution': 0, 'current_price': 0.0, 'all_time_high': 0.0, 'presale_contract_id': 0, 'staking_contract_id': 0, 'token_id': 3}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+ERROR:Logger:Request : PUT http://localhost:4000/projects/5 - Response: 400 {"error":"(psycopg2.errors.ForeignKeyViolation) insert or update on table \"project\" violates foreign key constraint \"project_social_id_fkey\"\nDETAIL:  Key (social_id)=(0) is not present in table \"social\".\n\n[SQL: UPDATE project SET name=%(name)s, number_of_registrations=%(number_of_registrations)s, number_of_participants=%(number_of_participants)s, sale_type=%(sale_type)s, percent_raised=%(percent_raised)s, target_raised=%(target_raised)s, total_tokens_sold=%(total_tokens_sold)s, total_raised=%(total_raised)s, state=%(state)s, explanation_text=%(explanation_text)s, website_url=%(website_url)s, withdraw_all=%(withdraw_all)s, staking_idle_time=%(staking_idle_time)s, is_staking_idle=%(is_staking_idle)s, is_airdrop=%(is_airdrop)s, social_id=%(social_id)s, uuser=%(uuser)s, udate=now() WHERE project.id = %(id_1)s]\n[parameters: {'name': 'kaan', 'number_of_registrations': 0, 'number_of_participants': 0, 'sale_type': <SaleType.IDO: 'ido'>, 'percent_raised': 0.0, 'target_raised': 0, 'total_tokens_sold': 0.0, 'total_raised': 0, 'state': 'string', 'explanation_text': 'string', 'website_url': 'string', 'withdraw_all': True, 'staking_idle_time': datetime.datetime(2022, 11, 17, 11, 29, 12, 319000, tzinfo=datetime.timezone.utc), 'is_staking_idle': True, 'is_airdrop': True, 'social_id': 0, 'uuser': 100000000, 'id_1': 5}]\n(Background on this error at: https://sqlalche.me/e/14/gkpj)"}
+INFO:Logger:Request : OPTIONS http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/6 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/6/logo - Response: 400 {"error":"project 6 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/projects/5 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/5/logo - Response: 400 {"error":"project 5 does not have a logo."}
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects/5 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/5 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/5/logo - Response: 400 {"error":"project 5 does not have a logo."}
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects/6 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/6 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/6/logo - Response: 400 {"error":"project 6 does not have a logo."}
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens/3 - Response Status: 200
+ERROR:Logger:Request : PUT http://localhost:4000/tokens/3 - Response: 422 {"detail":[{"loc":["body",42],"msg":"Expecting property name enclosed in double quotes: line 5 column 1 (char 42)","type":"value_error.jsondecode","ctx":{"msg":"Expecting property name enclosed in double quotes","doc":"{\n  \"name\": \"kaan\",\n  \"symbol\": \"knn\",\n  \n}","pos":42,"lineno":5,"colno":1}}]}
+INFO:Logger:Request : PUT http://localhost:4000/tokens/3 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects/3 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/3 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/3/logo - Response: 400 {"error":"project 3 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/login - Response Status: 200
+DEBUG:multipart.multipart:Calling on_part_begin with no data
+DEBUG:multipart.multipart:Calling on_header_field with data[42:61]
+DEBUG:multipart.multipart:Calling on_header_value with data[63:89]
+DEBUG:multipart.multipart:Calling on_header_end with no data
+DEBUG:multipart.multipart:Calling on_headers_finished with no data
+DEBUG:multipart.multipart:Calling on_part_data with data[93:118]
+DEBUG:multipart.multipart:Calling on_part_end with no data
+DEBUG:multipart.multipart:Calling on_part_begin with no data
+DEBUG:multipart.multipart:Calling on_header_field with data[162:181]
+DEBUG:multipart.multipart:Calling on_header_value with data[183:209]
+DEBUG:multipart.multipart:Calling on_header_end with no data
+DEBUG:multipart.multipart:Calling on_headers_finished with no data
+DEBUG:multipart.multipart:Calling on_part_data with data[213:220]
+DEBUG:multipart.multipart:Calling on_part_end with no data
+DEBUG:multipart.multipart:Calling on_end with no data
+ERROR:Logger:Request : POST http://localhost:4000/login - Response: 400 {"detail":"Incorrect email or password"}
+DEBUG:multipart.multipart:Calling on_part_begin with no data
+DEBUG:multipart.multipart:Calling on_header_field with data[42:61]
+DEBUG:multipart.multipart:Calling on_header_value with data[63:89]
+DEBUG:multipart.multipart:Calling on_header_end with no data
+DEBUG:multipart.multipart:Calling on_headers_finished with no data
+DEBUG:multipart.multipart:Calling on_part_data with data[93:118]
+DEBUG:multipart.multipart:Calling on_part_end with no data
+DEBUG:multipart.multipart:Calling on_part_begin with no data
+DEBUG:multipart.multipart:Calling on_header_field with data[162:181]
+DEBUG:multipart.multipart:Calling on_header_value with data[183:209]
+DEBUG:multipart.multipart:Calling on_header_end with no data
+DEBUG:multipart.multipart:Calling on_headers_finished with no data
+DEBUG:multipart.multipart:Calling on_part_data with data[213:219]
+DEBUG:multipart.multipart:Calling on_part_end with no data
+DEBUG:multipart.multipart:Calling on_end with no data
+INFO:Logger:Request : POST http://localhost:4000/login - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/user/profile - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/profile - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/profile - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/profile - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects/3 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/3 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/3/logo - Response: 400 {"error":"project 3 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects/8 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/3/logo - Response: 400 {"error":"project 3 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/projects/8 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/8/logo - Response: 400 {"error":"project 8 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects/5 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/5 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/5/logo - Response: 400 {"error":"project 5 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/5 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/5/logo - Response: 400 {"error":"project 5 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/5 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/5/logo - Response: 400 {"error":"project 5 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/projects/5 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/5 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/5/logo - Response: 400 {"error":"project 5 does not have a logo."}
+ERROR:Logger:Request : GET http://localhost:4000/projects/5/logo - Response: 400 {"error":"project 5 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/5 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/5 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/5/logo - Response: 400 {"error":"project 5 does not have a logo."}
+ERROR:Logger:Request : GET http://localhost:4000/projects/5/logo - Response: 400 {"error":"project 5 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/5 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/5 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/5/logo - Response: 400 {"error":"project 5 does not have a logo."}
+ERROR:Logger:Request : GET http://localhost:4000/projects/5/logo - Response: 400 {"error":"project 5 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/5 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/5 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/5/logo - Response: 400 {"error":"project 5 does not have a logo."}
+ERROR:Logger:Request : GET http://localhost:4000/projects/5/logo - Response: 400 {"error":"project 5 does not have a logo."}
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects/5 - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/5 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/5 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/5/logo - Response: 400 {"error":"project 5 does not have a logo."}
+ERROR:Logger:Request : GET http://localhost:4000/projects/5/logo - Response: 400 {"error":"project 5 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/5 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/5 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/5/logo - Response: 400 {"error":"project 5 does not have a logo."}
+ERROR:Logger:Request : GET http://localhost:4000/projects/5/logo - Response: 400 {"error":"project 5 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/5 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/5 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/5/logo - Response: 400 {"error":"project 5 does not have a logo."}
+ERROR:Logger:Request : GET http://localhost:4000/projects/5/logo - Response: 400 {"error":"project 5 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/5 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/docs - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/openapi.json - Response Status: 200
+ERROR:Logger:Request : PUT http://localhost:4000/tokens/5 - Response: 401 {"detail":"Not authenticated"}
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[0:10]
+DEBUG:multipart.multipart:Calling on_field_data with data[11:19]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[20:28]
+DEBUG:multipart.multipart:Calling on_field_data with data[29:56]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_field_start with no data
+DEBUG:multipart.multipart:Calling on_field_name with data[57:65]
+DEBUG:multipart.multipart:Calling on_field_data with data[66:72]
+DEBUG:multipart.multipart:Calling on_field_end with no data
+DEBUG:multipart.multipart:Calling on_end with no data
+INFO:Logger:Request : POST http://localhost:4000/login - Response Status: 200
+ERROR:uvicorn.error:Exception in ASGI application
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1819, in _execute_context
+    self.dialect.do_execute(
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.ForeignKeyViolation: insert or update on table "token" violates foreign key constraint "token_presale_contract_id_fkey"
+DETAIL:  Key (presale_contract_id)=(0) is not present in table "presale".
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 366, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/usr/local/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/fastapi/applications.py", line 269, in __call__
+    await super().__call__(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/base.py", line 68, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "/unopad/API/./logger.py", line 33, in log_middle
+    response = await call_next(request)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/base.py", line 46, in call_next
+    raise app_exc
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/base.py", line 36, in coro
+    await self.app(scope, request.receive, send_stream.send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/cors.py", line 92, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/cors.py", line 147, in simple_response
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/exceptions.py", line 93, in __call__
+    raise exc
+  File "/usr/local/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    await self.app(scope, receive, sender)
+  File "/usr/local/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 21, in __call__
+    raise e
+  File "/usr/local/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 670, in __call__
+    await route.handle(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 266, in handle
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 65, in app
+    response = await func(request)
+  File "/usr/local/lib/python3.8/site-packages/fastapi/routing.py", line 227, in app
+    raw_response = await run_endpoint_function(
+  File "/usr/local/lib/python3.8/site-packages/fastapi/routing.py", line 162, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/usr/local/lib/python3.8/site-packages/starlette/concurrency.py", line 41, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "/usr/local/lib/python3.8/site-packages/anyio/to_thread.py", line 31, in run_sync
+    return await get_asynclib().run_sync_in_worker_thread(
+  File "/usr/local/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 937, in run_sync_in_worker_thread
+    return await future
+  File "/usr/local/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 867, in run
+    result = context.run(func, *args)
+  File "/unopad/API/./project.py", line 345, in update_token
+    db.commit()
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 1435, in commit
+    self._transaction.commit(_to_root=self.future)
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 829, in commit
+    self._prepare_impl()
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 808, in _prepare_impl
+    self.session.flush()
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 3367, in flush
+    self._flush(objects)
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 3507, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 3467, in _flush
+    flush_context.execute()
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/orm/unitofwork.py", line 456, in execute
+    rec.execute(self)
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/orm/unitofwork.py", line 630, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/orm/persistence.py", line 237, in save_obj
+    _emit_update_statements(
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/orm/persistence.py", line 1001, in _emit_update_statements
+    c = connection._execute_20(
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1631, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/sql/elements.py", line 325, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1498, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1862, in _execute_context
+    self._handle_dbapi_exception(
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 2043, in _handle_dbapi_exception
+    util.raise_(
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1819, in _execute_context
+    self.dialect.do_execute(
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.IntegrityError: (psycopg2.errors.ForeignKeyViolation) insert or update on table "token" violates foreign key constraint "token_presale_contract_id_fkey"
+DETAIL:  Key (presale_contract_id)=(0) is not present in table "presale".
+
+[SQL: UPDATE token SET name=%(name)s, symbol=%(symbol)s, decimals=%(decimals)s, address=%(address)s, owner_address=%(owner_address)s, total_supply=%(total_supply)s, price_in_usd=%(price_in_usd)s, price_in_uno=%(price_in_uno)s, distribution=%(distribution)s, current_price=%(current_price)s, all_time_high=%(all_time_high)s, presale_contract_id=%(presale_contract_id)s, staking_contract_id=%(staking_contract_id)s, udate=now() WHERE token.id = %(token_id)s]
+[parameters: {'name': 'string', 'symbol': 'string', 'decimals': 0, 'address': '0x012b020b2479f42835FAFd7037339B5bDBa4C3Fb', 'owner_address': 'string', 'total_supply': 0, 'price_in_usd': 0.0, 'price_in_uno': 0.0, 'distribution': 0, 'current_price': 0.0, 'all_time_high': 0.0, 'presale_contract_id': 0, 'staking_contract_id': 0, 'token_id': 5}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+ERROR:uvicorn.error:Exception in ASGI application
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1819, in _execute_context
+    self.dialect.do_execute(
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.ForeignKeyViolation: insert or update on table "token" violates foreign key constraint "token_presale_contract_id_fkey"
+DETAIL:  Key (presale_contract_id)=(0) is not present in table "presale".
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 366, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/usr/local/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/fastapi/applications.py", line 269, in __call__
+    await super().__call__(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/base.py", line 68, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "/unopad/API/./logger.py", line 33, in log_middle
+    response = await call_next(request)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/base.py", line 46, in call_next
+    raise app_exc
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/base.py", line 36, in coro
+    await self.app(scope, request.receive, send_stream.send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/cors.py", line 92, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/usr/local/lib/python3.8/site-packages/starlette/middleware/cors.py", line 147, in simple_response
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/exceptions.py", line 93, in __call__
+    raise exc
+  File "/usr/local/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    await self.app(scope, receive, sender)
+  File "/usr/local/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 21, in __call__
+    raise e
+  File "/usr/local/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 670, in __call__
+    await route.handle(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 266, in handle
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.8/site-packages/starlette/routing.py", line 65, in app
+    response = await func(request)
+  File "/usr/local/lib/python3.8/site-packages/fastapi/routing.py", line 227, in app
+    raw_response = await run_endpoint_function(
+  File "/usr/local/lib/python3.8/site-packages/fastapi/routing.py", line 162, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/usr/local/lib/python3.8/site-packages/starlette/concurrency.py", line 41, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "/usr/local/lib/python3.8/site-packages/anyio/to_thread.py", line 31, in run_sync
+    return await get_asynclib().run_sync_in_worker_thread(
+  File "/usr/local/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 937, in run_sync_in_worker_thread
+    return await future
+  File "/usr/local/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 867, in run
+    result = context.run(func, *args)
+  File "/unopad/API/./project.py", line 345, in update_token
+    db.commit()
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 1435, in commit
+    self._transaction.commit(_to_root=self.future)
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 829, in commit
+    self._prepare_impl()
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 808, in _prepare_impl
+    self.session.flush()
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 3367, in flush
+    self._flush(objects)
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 3507, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 3467, in _flush
+    flush_context.execute()
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/orm/unitofwork.py", line 456, in execute
+    rec.execute(self)
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/orm/unitofwork.py", line 630, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/orm/persistence.py", line 237, in save_obj
+    _emit_update_statements(
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/orm/persistence.py", line 1001, in _emit_update_statements
+    c = connection._execute_20(
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1631, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/sql/elements.py", line 325, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1498, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1862, in _execute_context
+    self._handle_dbapi_exception(
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 2043, in _handle_dbapi_exception
+    util.raise_(
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1819, in _execute_context
+    self.dialect.do_execute(
+  File "/usr/local/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 732, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.IntegrityError: (psycopg2.errors.ForeignKeyViolation) insert or update on table "token" violates foreign key constraint "token_presale_contract_id_fkey"
+DETAIL:  Key (presale_contract_id)=(0) is not present in table "presale".
+
+[SQL: UPDATE token SET name=%(name)s, symbol=%(symbol)s, decimals=%(decimals)s, address=%(address)s, owner_address=%(owner_address)s, total_supply=%(total_supply)s, price_in_usd=%(price_in_usd)s, price_in_uno=%(price_in_uno)s, distribution=%(distribution)s, current_price=%(current_price)s, all_time_high=%(all_time_high)s, presale_contract_id=%(presale_contract_id)s, staking_contract_id=%(staking_contract_id)s, udate=now() WHERE token.id = %(token_id)s]
+[parameters: {'name': 'string', 'symbol': 'string', 'decimals': 0, 'address': '0x012b020b2479f42835FAFd7037339B5bDBa4C3Fb', 'owner_address': 'string', 'total_supply': 0, 'price_in_usd': 0.0, 'price_in_uno': 0.0, 'distribution': 0, 'current_price': 0.0, 'all_time_high': 0.0, 'presale_contract_id': 0, 'staking_contract_id': 0, 'token_id': 5}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+INFO:Logger:Request : GET http://localhost:4000/tokens/5 - Response Status: 200
+INFO:Logger:Request : PUT http://localhost:4000/tokens/5 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/5 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/5/logo - Response: 400 {"error":"project 5 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/5 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/5/logo - Response: 400 {"error":"project 5 does not have a logo."}
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects/5 - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/5 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/5/logo - Response: 400 {"error":"project 5 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/5 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/5/logo - Response: 400 {"error":"project 5 does not have a logo."}
+INFO:Logger:Request : OPTIONS http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/5/logo - Response: 400 {"error":"project 5 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/projects/5 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects/2 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/2 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/2/logo - Response: 400 {"error":"project 2 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/2 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/2/logo - Response: 400 {"error":"project 2 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects/6 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/6 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/6/logo - Response: 400 {"error":"project 6 does not have a logo."}
+INFO:Logger:Request : OPTIONS http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects/3 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/3 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/3/logo - Response: 400 {"error":"project 3 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/6 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/6/logo - Response: 400 {"error":"project 6 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/6 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/6/logo - Response: 400 {"error":"project 6 does not have a logo."}
+INFO:Logger:Request : OPTIONS http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects/5 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/6/logo - Response: 400 {"error":"project 6 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/projects/5 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/5/logo - Response: 400 {"error":"project 5 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects/3 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/3 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/3/logo - Response: 400 {"error":"project 3 does not have a logo."}
+ERROR:Logger:Request : GET http://localhost:4000/projects/3/image - Response: 400 {"error":"project 3 does not have an image."}
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects/4 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/4 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/4/logo - Response: 400 {"error":"project 4 does not have a logo."}
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects/6 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/4/logo - Response: 400 {"error":"project 4 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/projects/6 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/6/logo - Response: 400 {"error":"project 6 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects/5 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/5 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/5/logo - Response: 400 {"error":"project 5 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/projects - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/5/logo - Response: 400 {"error":"project 5 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/projects/6 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/6/logo - Response: 400 {"error":"project 6 does not have a logo."}
+INFO:Logger:Request : OPTIONS http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects/6 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/6 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/6/logo - Response: 400 {"error":"project 6 does not have a logo."}
+INFO:Logger:Request : OPTIONS http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/6/logo - Response: 400 {"error":"project 6 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/projects/6 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/6 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/6/logo - Response: 400 {"error":"project 6 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/6 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/6/logo - Response: 400 {"error":"project 6 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects/5 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/5 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/5/logo - Response: 400 {"error":"project 5 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects/3 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/5/logo - Response: 400 {"error":"project 5 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/projects/3 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/3/logo - Response: 400 {"error":"project 3 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/3/logo - Response: 400 {"error":"project 3 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/projects/5 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/5/logo - Response: 400 {"error":"project 5 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/5 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/5/logo - Response: 400 {"error":"project 5 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects/8 - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/8 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/8/logo - Response: 400 {"error":"project 8 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects/4 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/8/logo - Response: 400 {"error":"project 8 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/projects/4 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/4/logo - Response: 400 {"error":"project 4 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/4/logo - Response: 400 {"error":"project 4 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/projects/3 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/3/logo - Response: 400 {"error":"project 3 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/3/logo - Response: 400 {"error":"project 3 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/projects/5 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/5/logo - Response: 400 {"error":"project 5 does not have a logo."}
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects/5 - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/5 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/5/logo - Response: 400 {"error":"project 5 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/user/check_token - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/projects/5 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/5/logo - Response: 400 {"error":"project 5 does not have a logo."}
+INFO:Logger:Request : OPTIONS http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : GET http://localhost:4000/tokens - Response Status: 200
+INFO:Logger:Request : OPTIONS http://localhost:4000/projects/6 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/5/logo - Response: 400 {"error":"project 5 does not have a logo."}
+INFO:Logger:Request : GET http://localhost:4000/projects/6 - Response Status: 200
+ERROR:Logger:Request : GET http://localhost:4000/projects/6/logo - Response: 400 {"error":"project 6 does not have a logo."}

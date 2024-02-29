@@ -1,0 +1,17 @@
+{
+  "name": "updated",
+  "number_of_registrations": 0,
+  "number_of_participants": 0,
+  "sale_type": "ido",
+  "percent_raised": 0,
+  "target_raised": 0,
+  "total_tokens_sold": 0,
+  "total_raised": 0,
+  "state": "string",
+  "explanation_text": "string",
+  "website_url": "string",
+  "withdraw_all": true,
+  "staking_idle_time": "2022-11-10T12:10:46.939Z",
+  "is_staking_idle": true,
+  "is_airdrop": true
+}

@@ -1,0 +1,23 @@
+{
+  "name": "string",
+  "symbol": "string",
+  "decimals": 0,
+  "address": "string",
+  "owner_address": "string",
+  "total_supply": 0,
+  "price_in_usd": 0,
+  "price_in_uno": 0,
+  "distribution": 0,
+  "current_price": 0,
+  "all_time_high": 0,
+  "staking_contract": {
+    "contract_address": "string",
+    "contract_owner_address": "string",
+    "reward_token_address": "string",
+    "reward_token_owner_address": "string"
+  },
+  "presale_contract": {
+    "contract_address": "string",
+    "contract_owner_address": "string"
+  }
+}

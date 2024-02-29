@@ -1,0 +1,44 @@
+{
+  "name": "TEST Uno Token",
+  "number_of_registrations": 0,
+  "number_of_participants": 0,
+  "sale_type": "ido",
+  "percent_raised": 0,
+  "round_sale": {
+    "description": "string",
+    "start_date": "2022-11-10T12:08:56.636Z",
+    "end_date": "2022-11-10T12:08:56.636Z"
+  },
+  "target_raised": 0,
+  "total_tokens_sold": 0,
+  "total_raised": 0,
+  "state": "string",
+  "explanation_text": "string",
+  "website_url": "string",
+  "withdraw_all": true,
+  "staking_idle_time": "2022-11-10T12:08:56.636Z",
+  "is_staking_idle": true,
+  "is_airdrop": true,
+  "token": {
+    "name": "Uno",
+    "symbol": "string",
+    "decimals": 0,
+    "address": "string",
+    "owner_address": "string",
+    "total_supply": 0,
+    "price_in_usd": 0,
+    "price_in_uno": 0,
+    "distribution": 0,
+    "current_price": 0,
+    "all_time_high": 0,
+    "presale_contract": {
+      "contract_address": "string",
+      "contract_owner_address": "string"
+    }
+  },
+  "social": {
+    "twitter": "string",
+    "discord": "string",
+    "telegram": "string"
+  }
+}
